@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAWMR Consulting</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    color: #222;
+}
+
+/* HEADER */
+header {
+    background: #0b0c3a;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00cfff;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(120deg, #0b0c3a, #1a1c7c);
+    color: white;
+    padding: 100px 40px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    max-width: 700px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn {
+    background: #00cfff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #009bb5;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* SERVICES */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* PROJECTS */
+.project {
+    background: #eaeef5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* CTA */
+.cta {
+    background: #0b0c3a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* FOOTER */
+footer {
+    background: #0b0c3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <img src="LOGO RAWMR.png" alt="RAWMR Logo">
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Consultoría e Ingeniería de Alto Nivel</h1>
+    <p>Especialistas en proyectos de obra civil, energía y soluciones técnicas para sector público y privado.</p>
+    <button class="btn">Solicitar Propuesta</button>
+</section>
+
+<section class="section" id="servicios">
+    <h2>Servicios</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Obra Civil</h3>
+            <p>Ejecución y supervisión de proyectos constructivos con estándares de calidad y normatividad.</p>
+        </div>
+        <div class="card">
+            <h3>Ingeniería Especializada</h3>
+            <p>Diseño e implementación de soluciones en infraestructura eléctrica y sistemas técnicos.</p>
+        </div>
+        <div class="card">
+            <h3>Consultoría para Licitaciones</h3>
+            <p>Desarrollo de propuestas técnicas, anexos y documentación para procesos públicos.</p>
+        </div>
+        <div class="card">
+            <h3>Gestión de Proyectos</h3>
+            <p>Planeación, control y ejecución eficiente de proyectos de alta complejidad.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <div class="grid">
+        <div class="project">
+            <h3>Laboratorio de Protecciones CENACE</h3>
+            <p>Implementación de maqueta digital modular con instalación de tableros PCyM, obra civil y cableado.</p>
+        </div>
+        <div class="project">
+            <h3>Infraestructura Eléctrica</h3>
+            <p>Diseño y ejecución de sistemas de distribución y control para instalaciones industriales.</p>
+        </div>
+        <div class="project">
+            <h3>Proyectos Ejecutivos</h3>
+            <p>Desarrollo de ingeniería y documentación técnica para licitaciones públicas.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h2>¿Listo para desarrollar tu proyecto?</h2>
+    <p>Contáctanos y recibe una propuesta técnica profesional.</p>
+    <button class="btn">Contactar ahora</button>
+</section>
+
+<section class="section" id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Email:</strong> contacto@rawmr.com</p>
+    <p><strong>Teléfono:</strong> +52 55 0000 0000</p>
+    <p><strong>Ubicación:</strong> Ciudad de México</p>
+</section>
+
+<footer>
+    <p>© 2026 RAWMR Consulting | Ingeniería y Consultoría</p>
+</footer>
+
+</body>
+</html>
